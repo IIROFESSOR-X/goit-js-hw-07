@@ -21,6 +21,7 @@ function createBoxes() {
       fragment.appendChild(div);
     }
     
+    boxesContainer.innerHTML = '';
     boxesContainer.appendChild(fragment);
     input.value = '';
   }
